@@ -1,16 +1,17 @@
 /**
- * @name waaaaaaaaaaaaaaaaa
+ * @name aa
  * @author ClearVision Team
- * @version 6
- * @description Highly customizable and beautiful theme for BetterDiscord
+ * @version 6.3.0
+ * @description Highly customizable and beautiful theme for BetterDiscord.
  * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://clearvision.gitlab.io
- * @invite 2fKpjAR
+ * @website https://clearvision.github.io
+ * @invite 7pNUC9C
+ * @BDEditor Clear Vision
 */
 
-@import url('https://clearvision.gitlab.io/v6/main.css');
+@import url('https://fonts.googleapis.com/css2?family=Whitney:wght@100;300;400;500;700&display=swap');
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
-@import url('https://discordstyles.github.io/RadialStatus/base.css');
 
 :root {
   --main-color: #2780e6;
@@ -31,7 +32,7 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://clearvision.gitlab.io/images/sapphire.jpg');
+  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -42,7 +43,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-modal-image: url('https://clearvision.gitlab.io/images/sapphire.jpg');
+  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -53,12 +54,12 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
-  --home-icon: url('https://clearvision.gitlab.io/icons/discord.svg');
+  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: center;
   --home-size: 40px;
-  --channel-unread: rgb(255, 255, 255);
+  --channel-unread: #FFFFFF;
   --channel-color: rgb(115,115,115,1);
-  --channel-color: rgb(115,115,115,1);
+  --muted-color: rgb(51,51,51,1);
   --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
@@ -87,16 +88,8 @@
   --columns: 3;
   --guildgap: 3;
   --aligndms: 1;
-  --rs-small-spacing: 2px;
-  --rs-medium-spacing: 2px;
-  --rs-large-spacing: 2px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 2px;
-  --rs-large-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
 }
+
+/* Any custom CSS below here */
+
+
